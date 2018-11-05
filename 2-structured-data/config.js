@@ -39,13 +39,13 @@ nconf
     // configure the appropriate settings for each storage engine below.
     // If you are unsure, use datastore as it requires no additional
     // configuration.
-    DATA_BACKEND: 'datastore',
+    DATA_BACKEND: 'cloudsql',
 
     // This is the id of your project in the Google Cloud Developers Console.
-    GCLOUD_PROJECT: '',
+    GCLOUD_PROJECT: 'warm-cycle-221414',
 
-    MYSQL_USER: '',
-    MYSQL_PASSWORD: '',
+    MYSQL_USER: 'shubham',
+    MYSQL_PASSWORD: '1234',
 
     PORT: 8080
   });
